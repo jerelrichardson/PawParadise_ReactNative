@@ -36,6 +36,10 @@ class Offerings extends Component {
                 <Accordion
                     title={item.title}
                     data={item.description}
+                    name={'Name: ' + item.name}
+                    email={'Email: ' + item.email}
+                    phone={'Phone: ' + item.phone}
+                    location={'Area: ' + item.location}
                     // subtitle={item.name}
                     // leftAvatar={{ source: require('./images/bootstrap-logo.png')}}
                     leftAvatar={{source: {uri: baseUrl + item.image}}}

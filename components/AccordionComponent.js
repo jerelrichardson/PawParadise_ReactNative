@@ -9,6 +9,9 @@ export default class Accordion extends Component{
         super(props);
         this.state = { 
           data: props.data,
+          name: props.name,
+          email: props.email,
+          location: props.location,
           expanded : false,
         }
 
@@ -38,6 +41,10 @@ export default class Accordion extends Component{
                 this.state.expanded &&
                 <View style={styles.child}>
                     <Text>{this.props.data}</Text>    
+                    <Text>{this.props.name}</Text> 
+                    <Text>{this.props.email}</Text>
+                    <Text>{this.props.phone}</Text>     
+                    <Text>{this.props.location}</Text> 
                 </View>
             }
             
