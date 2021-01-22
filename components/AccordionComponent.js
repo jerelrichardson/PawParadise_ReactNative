@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
         paddingLeft:25,
         paddingRight:18,
         alignItems:'center',
-        backgroundColor:'darkblue', 
+        backgroundColor:'#C1DBE3', 
         color: 'white',
         // backgroundColor:'#808080', // DarkGrey
         // backgroundColor: Colors.CGRAY,
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     },
     child:{
         // backgroundColor: Colors.LIGHTGRAY,
-        backgroundColor: '#eeecfb',
+        backgroundColor: '#eeecfb', 
         padding:16,
     }
     
