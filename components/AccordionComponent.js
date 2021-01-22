@@ -23,12 +23,11 @@ export default class Accordion extends Component{
        <View>
             <TouchableOpacity ref={this.accordion} style={styles.row} onPress={()=>this.toggleExpand()}>
                 <Text style={[styles.title, styles.font]}>{this.props.title}</Text>
-                {/* <Icon name={this.state.expanded ? 'keyboard-arrow-up' : 'keyboard-arrow-down'} size={30} color={Colors.DARKGRAY} /> */}
                 <Icon
                     name={this.state.expanded ? 'arrow-up' : 'arrow-down'}
                     type='simple-line-icon'
                     color='#f50'
-                    size={20}
+                    size={15}
                     // raised
                     // reverse
                     // onPress={() => props.favorite ? console.log('Already set as a favorite') : props.markFavorite()}
